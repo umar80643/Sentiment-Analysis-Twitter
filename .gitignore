@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+logs/*
+models/*
+data/raw/*
+!data/.gitkeep
+!logs/.gitkeep
+!models/.gitkeep
+data/training.1600000.processed.noemoticon.csv
+data/training.norm.csv
+data/trainingandtestdata.zip
+.env
+.idea/
+.vscode/
+*.pyc
+# Large datasets
+data/largedata1.6million.csv
+data/training1.6m.norm.csv
+.DS_Store
+
+
